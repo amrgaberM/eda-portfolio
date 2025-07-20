@@ -1,1 +1,42 @@
+# Titanic - Exploratory Data Analysis
+
+This repository contains a beginner-level exploratory data analysis (EDA) of the Titanic dataset from Kaggle.
+
+## Objective
+Understand the characteristics and patterns in the Titanic dataset to identify factors that influenced passenger survival.
+
+## Dataset
+- Source: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)
+- Data includes demographic and travel information of passengers.
+
+## Key Steps
+
+1. **Data Loading and Inspection**
+   - Checked data types, missing values, and basic structure.
+
+2. **Data Cleaning**
+   - Handled missing values in `Age`, `Embarked`, and dropped `Cabin`.
+   - Removed duplicates.
+
+3. **Univariate Analysis**
+   - Analyzed distributions of individual features using histograms, boxplots, and bar charts.
+
+4. **Bivariate Analysis**
+   - Explored relationships between features and the target (`Survived`).
+   - Focused on `Sex`, `Pclass`, `Age`, `Fare`, and `Embarked`.
+
+5. **Outlier Detection**
+   - Used IQR method to detect and handle outliers in `Fare` and `Age`.
+
+6. **Key Insights**
+   - Gender and class had a strong impact on survival.
+   - Children and passengers who paid higher fares were more likely to survive.
+   - Traveling alone decreased survival chances.
+
+## Tools Used
+- Python
+- Pandas
+- NumPy
+- Seaborn
+- Matplotlib
 
