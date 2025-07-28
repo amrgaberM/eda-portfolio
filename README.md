@@ -8,10 +8,6 @@ This repository contains exploratory data analysis (EDA) projects on various dat
 - Build clear, reproducible notebooks
 - Highlight data-driven insights
 
-## Contents
-
-- **Titanic** – Survival analysis with demographic and travel features  
-- [More projects coming soon]
 
 ## Tools
 
